@@ -7,7 +7,7 @@
   </head>
   <body style="background-color:#cfe2e2;">
     <div id="menu" class="menuText">
-      <img style="float: left;" class="circular--square" src="logo.jpg" height="100" width="100"/>
+      <img style="float: left;" class="circular--square" src="logo.jpg" height="100px" width="100px"/>
 
       <li>
         <a href="#about">
@@ -53,8 +53,6 @@
     </div>
         
     <section id="about" class="section">
-      <br/>
-      <br/>
       <br/>
       <br/>
       <br/>
@@ -112,14 +110,12 @@
       <br/>
       <br/>
       <br/>
-      <br/>
-      <br/>
       <h1>
         <b>
          My Photos
         </b>
       </h1>
-      <table align="center">
+      <table align="center" class="widthimg">
         <tr>
           <td>
             <img style="float:right;" src=1.jpg align="left" width="270px" height="300px"/>
@@ -349,7 +345,7 @@
     <script type="text/javascript">
       $(document).scroll(function() {
         $('#menu').toggle($(this).scrollTop()>1000)
-      });​
+      });
     </script>
 
   </body>
