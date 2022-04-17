@@ -19,6 +19,7 @@
     display: inline-block;
     font-weight: bolder;
     color: #1d3030;
+    min-width: 30%;
 }
 
 /* #menu .animation{
@@ -72,9 +73,12 @@ li:nth-child(7){
     width: 150px;
 }
 
+img{
+    min-width: 30%;
+}
+
 img:hover{
     transform: scale(1.5);
-    min-width: 30%;
 }
 
 .menuText{
