@@ -315,22 +315,17 @@
         <form action="https://formsubmit.co/yucoh@post.bgu.ac.il" method="POST" enctype="text/plain">
           Name:
           <br/>
-          <input type="text" name="name" required>
+          <input type="hidden" name="_subject" value="New email from My Web">
+          <input type="text" name="name" placeholder="Full name" required>
           <br/>
           E-mail:
           <br/>
-          <input type="text" name="mail" required>
+          <input type="text" name="email" placeholder="E-mail Address" required>
           <br/>
           Comment:
           <br/>
-          <textarea id="textArea" name="mail" required></textarea>
-<!--          <script>-->
-<!--            $(document).ready(function(){-->
-<!--              $("#textArea").emojioneArea({-->
-<!--                pickerPosition:"top"-->
-<!--              });-->
-<!--            })-->
-<!--          </script>-->
+          <textarea id="textArea" name="message" placeholder="Write your message here" required></textarea>
+          <input type="hidden" name="_next" value="https://web-development-environments-2021.github.io/assignment1-yuval5210/">
           <br/>
           <br/>
           <button type="submit">Send</button>
