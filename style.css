@@ -9,6 +9,7 @@
     display: inline;
     text-shadow: white;
     text-decoration: none;
+    min-width: 30%;
 }
 
 .menuText a{
