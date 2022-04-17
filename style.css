@@ -71,6 +71,10 @@ li:nth-child(7){
     width: 150px;
 }
 
+img:hover{
+    transform: scale(1.5);
+}
+
 .menuText{
     color: #1d3030;
     text-decoration: none;
