@@ -118,4 +118,9 @@ img:hover{
     border-bottom-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%; 
     box-shadow: 5px 5px 10px white;
-} 
+}
+
+
+body {
+    min-width: 700px;
+}
