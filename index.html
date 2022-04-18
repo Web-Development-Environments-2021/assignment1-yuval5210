@@ -1,3 +1,4 @@
+<!-- TODO: READ ME-->
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,7 +8,11 @@
   </head>
   <body style="background-color:#cfe2e2;">
     <div id="menu" class="menuText">
-      <img style="float: left;" class="circular--square" src="logo.jpg" height="100px" width="100px"/>
+      <li>
+        <a href="#top">
+          <img style="float: left;" class="circular--square" src="logo.jpg" />
+        </a>
+      </li>
 
       <li>
         <a href="#about">
@@ -53,6 +58,8 @@
     </div>
         
     <section id="about" class="section">
+      <br/>
+      <br/>
       <br/>
       <br/>
       <br/>
@@ -115,33 +122,33 @@
          My Photos
         </b>
       </h1>
-      <table align="center">
+      <table class="tablePhotos" align="center">
         <tr>
           <td>
-            <img style="float:right;" src=1.jpg align="left" width="270px" height="300px"/>
+            <img style="float:right;" src=1.jpg class="imgTable"/>
           </td>
           <td>
-            <img style="float:right;" src=2.jpg align="left" width="270px" height="300px"/>
+            <img style="float:right;" src=2.jpg class="imgTable"/>
           </td>
           <td>
-            <img style="float:right;" src=3.jpg align="left" width="270px" height="300px"/>
+            <img style="float:right;" src=3.jpg class="imgTable"/>
           </td>
           <td>
-            <img style="float:right;" src=4.jpg align="left" width="270px" height="300px"/>
+            <img style="float:right;" src=4.jpg class="imgTable"/>
           </td>
         </tr>
         <tr>
           <td>
-            <img style="float:right;" src=5.jpg align="left" width="270px" height="300px"/>
+            <img style="float:right;" src=5.jpg class="imgTable"/>
           </td>
           <td>
-            <img style="float:right;" src=6.jpg align="left" width="270px" height="300px"/>
+            <img style="float:right;" src=6.jpg class="imgTable"/>
           </td>
           <td>
-            <img style="float:right;" src=7.jpg align="left" width="270px" height="300px"/>
+            <img style="float:right;" src=7.jpg class="imgTable"/>
           </td>
           <td>
-            <img style="float:right;" src=8.jpg align="left" width="270px" height="300px"/>
+            <img style="float:right;" src=8.jpg class="imgTable"/>
           </td>
         </tr>
 
@@ -166,7 +173,7 @@
       </h1>
       <br/>
       <center>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/9H51z7ir3DE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="framePlayList" src="https://www.youtube.com/embed/9H51z7ir3DE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </center>
       <br/>
       <br/>
@@ -186,7 +193,9 @@
         </b>
       </h1>
       <!--TODO: check if works and OK -->
-      <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fweb-development-environments-2021.github.io%2Fassignment1-yuval5210%2F&width=450&layout=standard&action=like&size=small&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <center>
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fweb-development-environments-2021.github.io%2Fassignment1-yuval5210%2F&width=450&layout=standard&action=like&size=small&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      </center>
       <br/>
       <br/>
       <br/>
@@ -205,10 +214,10 @@
           Scan my code
         </b>
       </h1>
-      <table align="center">
+      <table align="center" class="tableQR">
         <tr>
           <td>
-            <img src="qr.jpg" id="qrcode" width="280px" height="280px" />
+            <img src="qr.jpg" id="qrcode" class="imgQR"/>
           </td>
         </tr>
       </table>
@@ -229,11 +238,11 @@
       </h1>
       <br/>
       <!--TODO: ans all the q&a -->
-      <table class="ans" border="1" align="center" bordercolor="#1d3030" width="70%">
-        <tr align="center">
+      <table class="tableQA">
+        <tr>
           <td>
             <h2>
-              Web 1.0
+                Web 1.0
             </h2>
           </td>
           <td>
@@ -247,7 +256,7 @@
             </h2>
           </td>
         </tr>
-        <tr dir="rtl">
+        <tr>
           <td>
             <h3>
               ה-web הוא קריאה בלבד
@@ -281,7 +290,6 @@
             </h3>
           </td>
         </tr>
-
       </table>
       <br/>
       <br/>
@@ -306,7 +314,7 @@
         Send me an e-mail here and let me know :)
         <br/>
       </h2>
-      <!--TODO: Get it work! -->
+      <!--TODO: ADD EMOJI TO THE EMAIL MESSAGE-->
       <h3>
         <form action="https://formsubmit.co/yucoh@post.bgu.ac.il" method="POST">
           Name:
