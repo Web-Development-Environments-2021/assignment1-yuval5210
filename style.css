@@ -1,7 +1,7 @@
 #menu
 {
 	position: fixed;
-    width: 100%;
+    width: auto;
     height: 53px;
     padding-top: 10px;
     text-align: left;
@@ -9,12 +9,12 @@
     display: inline;
     text-shadow: white;
     text-decoration: none;
-    min-width: 20%;
+    /*min-width: 20%;*/
 }
 
 .menuText a{
     width: auto;
-    font-size: 130%;
+    font-size: 25px;
     padding-top: 15px;
     text-decoration: none;
     font-family: Tahoma, sans-serif;
@@ -23,6 +23,12 @@
     font-weight: bolder;
     color: #1d3030;
 }
+
+/*@media screen and (min-width: 100px){*/
+/*    .menuText a{*/
+/*        font-size: 50%;*/
+/*    }*/
+/*}*/
 
 /*.menuText{*/
 /*    color: #1d3030;*/
@@ -44,10 +50,10 @@
     border-radius: 8px;
 } */
 
-.widthimg {
-    min-width: 30%;
-    min-height: 30%;
-}
+/*.widthimg {*/
+/*    min-width: 30%;*/
+/*    min-height: 30%;*/
+/*}*/
 
 li {
     line-height: 50px;
@@ -136,7 +142,104 @@ img:hover{
     border-bottom-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%; 
     box-shadow: 5px 5px 10px white;
+}
 
+@media screen and (max-width: 1100px) {
+    .menuText a {
+        width: auto;
+        font-size: 15px;
+        padding-top: 15px;
+        text-decoration: none;
+        font-family: Tahoma, sans-serif;
+        text-shadow: white 0px 8px 8px;
+        display: inline-block;
+        font-weight: bolder;
+        color: #1d3030;
+    }
+
+    /*About Me*/
+    li:nth-child(2){
+        width: 100px;
+    }
+
+    /*My Photos*/
+    li:nth-child(3){
+        width: 90px;
+    }
+
+    /*My Playlist*/
+    li:nth-child(4){
+        width: 100px;
+    }
+
+    /*Like*/
+    li:nth-child(5){
+        width: 50px;
+    }
+
+    /*QR Code*/
+    li:nth-child(6){
+        width: 90px;
+    }
+
+    /*Q&A*/
+    li:nth-child(7){
+        width: 50px;
+    }
+
+    /*Contact Me*/
+    li:nth-child(8){
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menuText a {
+        width: auto;
+        font-size: 5px;
+        padding-top: 15px;
+        text-decoration: none;
+        font-family: Tahoma, sans-serif;
+        text-shadow: white 0px 8px 8px;
+        display: inline-block;
+        font-weight: bolder;
+        color: #1d3030;
+    }
+
+    /*About Me*/
+    li:nth-child(2){
+        width: 100px;
+    }
+
+    /*My Photos*/
+    li:nth-child(3){
+        width: 90px;
+    }
+
+    /*My Playlist*/
+    li:nth-child(4){
+        width: 100px;
+    }
+
+    /*Like*/
+    li:nth-child(5){
+        width: 50px;
+    }
+
+    /*QR Code*/
+    li:nth-child(6){
+        width: 90px;
+    }
+
+    /*Q&A*/
+    li:nth-child(7){
+        width: 50px;
+    }
+
+    /*Contact Me*/
+    li:nth-child(8){
+        width: 90px;
+    }
 }
 
 /*body {*/
