@@ -189,3 +189,11 @@ img:hover{
     font-size: 1.4vw;
     padding: 15px;
 }
+
+#ans2{
+    direction: rtl;
+    font-family: Tahoma, sans-serif;
+    font-size: 1.4vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
