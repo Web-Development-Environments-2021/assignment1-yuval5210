@@ -123,12 +123,13 @@ img:hover{
 .circular--square {
     height: 16vh;
     width: 8vw;
-    object-fit: cover;
-    border-top-left-radius: 50% 50%;
-    border-top-right-radius: 50% 50%;
-    border-bottom-right-radius: 50% 50%;
-    border-bottom-left-radius: 50% 50%; 
-    box-shadow: 5px 5px 10px white;
+    /*object-fit: cover;*/
+    border-radius: 50px 50px 50px 50px;
+    /*border-top-left-radius: 50% 50%;*/
+    /*border-top-right-radius: 50% 50%;*/
+    /*border-bottom-right-radius: 50% 50%;*/
+    /*border-bottom-left-radius: 50% 50%; */
+    box-shadow: 7px 7px 10px white;
 }
 
 .tablePhotos{
