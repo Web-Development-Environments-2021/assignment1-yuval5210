@@ -123,12 +123,7 @@ img:hover{
 .circular--square {
     height: 16vh;
     width: 8vw;
-    /*object-fit: cover;*/
     border-radius: 50px 50px 50px 50px;
-    /*border-top-left-radius: 50% 50%;*/
-    /*border-top-right-radius: 50% 50%;*/
-    /*border-bottom-right-radius: 50% 50%;*/
-    /*border-bottom-left-radius: 50% 50%; */
     box-shadow: 7px 7px 10px white;
 }
 
@@ -166,13 +161,31 @@ img:hover{
 
 .tableQA{
     table-layout: fixed;
-    width: 100%;
+    width: 90vw;
     border-collapse: collapse;
     border: 2px solid #1d3030;
+    direction: rtl;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.thQA{
+    border: 1px solid #1d3030;
+    height: 10vh;
+    font-family: Tahoma, sans-serif;
+    color: #1d3030;
+    font-size: 2.2vw;
+    align: center;
+    font-weight: bold;
 }
 
 .tdQA{
     border: 1px solid #1d3030;
     text-align: right;
     direction: rtl;
+    height: 7vh;
+    font-family: Tahoma, sans-serif;
+    font-size: 1.4vw;
+    padding: 15px;
 }
