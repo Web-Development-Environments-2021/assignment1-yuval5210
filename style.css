@@ -173,7 +173,6 @@ img:hover{
 
 .tdQA{
     border: 1px solid #1d3030;
-    text-align: center;
+    text-align: right;
+    direction: rtl;
 }
-
-
